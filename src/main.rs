@@ -1,3 +1,5 @@
+mod nested;
+
 fn main() {
-    println!("Hello, world!");
+    nested::hello::hello();
 }
